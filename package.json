@@ -1,0 +1,43 @@
+{
+  "name": "update_ics_portfolios",
+  "version": "1.0.0",
+  "description": "Download portfolio data and prepare it for Jekyll processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --quiet --ext .jsx --ext .js ./imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ics-portfolios/ics-portfolios.github.io.git"
+  },
+  "author": "Philip Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ics-portfolios/ics-portfolios.github.io/issues"
+  },
+  "bin": {
+    "update_ics_portfolios": "update-ics-portfolios.js"
+  },
+  "homepage": "https://github.com/ics-portfolios/ics-portfolios.github.io#readme",
+  "dependencies": {
+    "JSON2016": "^1.0.0",
+    "async": "^2.1.2",
+    "fs": "0.0.1-security",
+    "fs-promise": "^0.5.0",
+    "jsonfile": "^2.4.0",
+    "jsonic": "^0.2.2",
+    "request": "^2.74.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-utils": ">=1.4.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-meteor": "^5.1.0",
+    "eslint-plugin-react": "^7.14.2"
+  }
+}
