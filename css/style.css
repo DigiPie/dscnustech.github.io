@@ -3266,7 +3266,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_tesmonial.scss */
 .testmonial_area {
-  background-image: url(../img/banner/testmonial.png);
+  /* ../img/banner/testmonial.png */
+  background-image: url(../dscimg/unnamed.png);
   padding: 196px 0;
   background-repeat: no-repeat;
   background-size: cover;
