@@ -1752,6 +1752,18 @@ h3 {
   padding: 13px 46px 14px 46px;
 }
 
+.productivity_area::before {
+  position: absolute;
+  content: "";
+  background: #94a4b3;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: .9;
+  z-index: -1;
+}
+
 /* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .productivity_area {
   /* ../img/banner/product.png */
