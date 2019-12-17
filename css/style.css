@@ -1752,6 +1752,16 @@ h3 {
   padding: 13px 46px 14px 46px;
 }
 
+/* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
+.productivity_area {
+  /* ../img/banner/product.png */
+  background-image: url(../dscimg/banner.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 164px 0;
+  background-repeat: no-repeat;
+}
+
 .productivity_area::before {
   position: absolute;
   content: "";
@@ -1762,16 +1772,6 @@ h3 {
   top: 0;
   opacity: .9;
   z-index: -1;
-}
-
-/* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
-.productivity_area {
-  /* ../img/banner/product.png */
-  background-image: url(../dscimg/banner.png);
-  background-size: cover;
-  background-position: center center;
-  padding: 164px 0;
-  background-repeat: no-repeat;
 }
 
 @media (max-width: 767px) {
