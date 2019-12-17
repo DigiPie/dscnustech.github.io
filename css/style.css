@@ -1762,7 +1762,7 @@ h3 {
   background-repeat: no-repeat;
 }
 
-.productivity_area::before {
+/* .productivity_area::before {
   position: absolute;
   content: "";
   background: #94a4b3;
@@ -1772,7 +1772,7 @@ h3 {
   top: 0;
   opacity: .9;
   z-index: -1;
-}
+} */
 
 @media (max-width: 767px) {
   /* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
