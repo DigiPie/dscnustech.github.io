@@ -1,8 +1,6 @@
-# ICS Portfolios
+# DSC NUS website
 
-A simple web application to display the professional portfolios for students, faculty, and staff in the ICS Department.
-
-## Installation
+## Installation of student portfolios
 
 First, [install node](https://nodejs.org/en/).
  
