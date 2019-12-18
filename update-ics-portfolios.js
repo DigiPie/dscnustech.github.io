@@ -9,7 +9,6 @@ const _ = require('underscore');
 const jsonic = require('jsonic');
 const jsonfile = require('jsonfile');
 const filterInterest = require('./interest-filter');
-const hallOfFameGenerator = require('./notable-html-generator');
 
 const dataFile = '_data/data.json';
 
@@ -147,7 +146,6 @@ function writeJekyllInfoFiles() {
   });
 
   filterInterest.writeToFile();
-  hallOfFameGenerator.generateHallOfFameTemplate(profileData);
 }
 
 /**
