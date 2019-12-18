@@ -5,21 +5,11 @@
 
 <nav class="ui stackable menu">
   <a href="{{ site.baseurl }}/" class="brand item">
-    ICS Portfolios
+    DSC NUS Portfolios
   </a>
   {% if undergrads.size > 0 %}
   <a href="{{ site.baseurl }}/people/undergrads" class=" {% if include.active == "undergrad" %} active {% endif
   %}item">B.A./B.S. ({{ undergrads.size }})</a>
-  {% endif %}
-
-  {% if grads.size > 0 %}
-  <a href="{{ site.baseurl }}/people/graduatestudents" class=" {% if include.active == "grad" %} active {% endif %}item">M.S./Ph.D. ({{
-  grads.size }})</a>
-  {% endif %}
-
-  {% if faculty.size > 0 %}
-  <a href="{{ site.baseurl }}/people/faculty" class=" {% if include.active == "faculty" %} active {% endif %}item">Faculty ({{
-  faculty.size }})</a>
   {% endif %}
 
   {% if alumni.size > -1 %}
@@ -29,8 +19,5 @@
 
   <a href="{{ site.baseurl }}/people/all" class=" {% if include.active == "all" %} active {% endif %}item">All ({{
   site.data.data.size }})</a>
-
-  <a href="{{ site.baseurl }}/people/notable" class=" {% if include.active == "notable" %} active {% endif %}item">
-  Notable ({{ site.data.notable-entries.size }})</a>
 
 </nav>
