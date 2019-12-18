@@ -7069,3 +7069,6 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+.transparent h3 {
+  background: rgba(0, 0, 0, 0.5);
+}
