@@ -47,3 +47,7 @@ body {
 .ui.green.button, .ui.green.buttons .button {
   background-color: lighten(darkgreen, 5%);
 }
+
+.transparent {
+  background: rgba(0, 0, 0, 0.5);
+}
