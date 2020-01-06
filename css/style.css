@@ -1519,7 +1519,7 @@ h3 {
 
 /* line 15, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .features_area .about_draw img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* line 19, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
@@ -1736,7 +1736,7 @@ h3 {
 .features_area .features_info ul li::before {
   position: absolute;
   left: 0;
-  background-image: url(../img/ilstrator_img/check.svg);
+  /* background-image: url(../img/ilstrator_img/check.svg); */
   width: 16px;
   height: 16px;
   content: '';
