@@ -7072,3 +7072,16 @@ h6 {
 .transparent {
   background: rgba(0, 0, 0, 0.5);
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #navlogo {
+    width: 175px;
+    height: 16px;
+  }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
