@@ -1514,7 +1514,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .features_area .about_image img {
-  width: auto;
+  /* width: auto; */
 }
 
 /* line 15, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
@@ -7071,4 +7071,17 @@ h6 {
 /*# sourceMappingURL=style.css.map */
 .transparent {
   background: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #navlogo {
+    width: 175px;
+    height: 16px;
+  }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
