@@ -1,23 +1,7 @@
 # DSC NUS website
+Landing site for the Technology team @ Developer Student Club, National University of Singapore.
 
-## Installation of student portfolios
-
-First, [install node](https://nodejs.org/en/).
- 
-Second, install the `update_ics_portfolios` shell script locally:
- 
- ```
- npm install
- sudo npm link
- ```
-
-To test your installation, invoke update_ics_portfolios:
-
-```
-update_ics_portfolios
-```
-
-
+Visit us at https://dscnustech.github.io/.
 
 
 
