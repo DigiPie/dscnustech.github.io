@@ -1,44 +1,38 @@
 {
-  "name": "update_ics_portfolios",
-  "version": "1.0.0",
-  "description": "Download portfolio data and prepare it for Jekyll processing",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --quiet --ext .jsx --ext .js ./imports"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ics-portfolios/ics-portfolios.github.io.git"
-  },
-  "author": "Philip Johnson",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ics-portfolios/ics-portfolios.github.io/issues"
-  },
-  "bin": {
-    "update_ics_portfolios": "update-ics-portfolios.js"
-  },
-  "homepage": "https://github.com/ics-portfolios/ics-portfolios.github.io#readme",
-  "dependencies": {
-    "JSON2016": "^1.0.0",
-    "async": "^2.6.3",
-    "fs": "0.0.1-security",
-    "fs-promise": "^0.5.0",
-    "jekyll": "^3.0.0-beta1",
-    "jsonfile": "^2.4.0",
-    "jsonic": "^0.2.2",
-    "request": "^2.88.0",
-    "underscore": "^1.9.2"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-meteor": "^5.1.0",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-utils": "^2.0.0"
+    "name": "dscnustech.github.io",
+    "version": "1.0.0",
+    "description": "DSC NUS Technology Landing Page",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint --quiet --ext .jsx --ext .js ./imports"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dscnustech/dscnustech.github.io"
+    },
+    "author": "Developer Student Club NUS Tech",
+    "license": "MIT",
+    "homepage": "https://dscnustech.github.io",
+    "dependencies": {
+      "JSON2016": "^1.0.0",
+      "async": "^2.6.3",
+      "fs": "0.0.1-security",
+      "fs-promise": "^0.5.0",
+      "jekyll": "^3.0.0-beta1",
+      "jsonfile": "^2.4.0",
+      "jsonic": "^0.2.2",
+      "request": "^2.88.0",
+      "underscore": "^1.9.2"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.0.2",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb": "^17.1.1",
+      "eslint-plugin-import": "^2.20.0",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-meteor": "^5.1.0",
+      "eslint-plugin-react": "^7.17.0",
+      "eslint-utils": "^2.0.0"
+    }
   }
-}
