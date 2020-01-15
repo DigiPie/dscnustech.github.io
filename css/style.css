@@ -1710,7 +1710,7 @@ h3 {
 
 /* line 134, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .features_area .features_info ul {
-  margin-bottom: 56px;
+  margin-bottom: 24px;
 }
 
 @media (max-width: 767px) {
@@ -2908,10 +2908,10 @@ h3 {
 
 /* line 155, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
 .footer .socail_links ul li a {
-  font-size: 18px;
+  font-size: 24px;
   color: #C3B2F0;
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   display: inline-block;
   text-align: center;
   background: #565656;
@@ -2922,6 +2922,7 @@ h3 {
   margin-right: 7px;
   color: #FFFFFF;
   line-height: 41px !important;
+  padding: 4px;
 }
 
 /* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
