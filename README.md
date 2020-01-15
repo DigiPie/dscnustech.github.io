@@ -3,18 +3,19 @@ Landing site for the Technology team @ Developer Student Club, National Universi
 
 Visit us at https://dscnustech.github.io/.
 
-### Development
+### Local deployment
 
-The site is created using Jekyll. To test the site locally, complete the following instructions:
+The site is built on Jekyll. To deploy this website locally for development purposes, complete the following instructions:
 
-#### Installation of Jekyll
+#### Install Jekyll
 
 Follow the instructions for your OS:
 https://jekyllrb.com/docs/installation/ 
 
 
-#### Test Jekyll Site Locally
+#### Deploy Jekyll site
 
 ```bash
+bundle install
 bundle exec jekyll serve
 ```

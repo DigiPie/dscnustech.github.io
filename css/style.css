@@ -1710,7 +1710,7 @@ h3 {
 
 /* line 134, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .features_area .features_info ul {
-  margin-bottom: 56px;
+  margin-bottom: 24px;
 }
 
 @media (max-width: 767px) {
@@ -2687,24 +2687,24 @@ h3 {
 
 /* line 6, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 117px;
-  padding-bottom: 205px;
+  padding-top: 48px;
+  padding-bottom: 96px;
   background: #1F1F1F;
 }
 
 @media (max-width: 767px) {
   /* line 6, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
   .footer .footer_top {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 36px;
+    padding-bottom: 84px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 6, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
   .footer .footer_top {
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 36px;
+    padding-bottom: 84px;
   }
 }
 
@@ -2800,7 +2800,7 @@ h3 {
 /* line 79, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li {
   color: #C7C7C7;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 42px;
 }
 
@@ -2891,13 +2891,13 @@ h3 {
 
 /* line 146, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
 .footer .socail_links {
-  margin-top: 47px;
+  margin-top: 12px;
 }
 
 @media (max-width: 767px) {
   /* line 146, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
   .footer .socail_links {
-    margin-top: 30px;
+    margin-top: 16px;
   }
 }
 
@@ -2908,10 +2908,10 @@ h3 {
 
 /* line 155, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
 .footer .socail_links ul li a {
-  font-size: 18px;
+  font-size: 24px;
   color: #C3B2F0;
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   display: inline-block;
   text-align: center;
   background: #565656;
@@ -2922,6 +2922,7 @@ h3 {
   margin-right: 7px;
   color: #FFFFFF;
   line-height: 41px !important;
+  padding: 4px;
 }
 
 /* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
