@@ -1046,7 +1046,7 @@ h3 {
 
 /* line 143, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
-  text-align: center;
+  text-align: right;
   padding: 12px 0;
 }
 
@@ -7072,10 +7072,6 @@ h6 {
 /*# sourceMappingURL=style.css.map */
 .transparent {
   background: rgba(0, 0, 0, 0.5);
-}
-
-#navlogo {
-  margin-left: 12px;
 }
 
 @media only screen and (max-width: 768px) {
