@@ -7074,6 +7074,10 @@ h6 {
   background: rgba(0, 0, 0, 0.5);
 }
 
+#navlogo {
+  margin-left: 12px;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   #navlogo {
